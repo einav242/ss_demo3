@@ -346,5 +346,5 @@ void func3(char *word,int len_w,char *txt,int len_t)
 			memset(s,0,strlen(s));
 		}
 	}		
-	printf("\n");
+	
 }
