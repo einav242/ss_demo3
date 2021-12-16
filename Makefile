@@ -12,5 +12,5 @@ str.o: str.c str.h
 .PHONY: clean all
 	
 clean:
-	rm -f *.o stringProg
+	rm -f *.o stringProg *.txt
 		
