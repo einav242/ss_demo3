@@ -10,7 +10,7 @@ int main()
 	memset(word,0,strlen(word));
 	scanf("%c",&word[0]);
 	int i=1;
-	while(i<30)
+	while(i<=30)
 	{
 		scanf("%c",&word[i]);
 		if(word[i]==' ' || word[i]=='\n' || word[i]=='\t')
@@ -23,7 +23,7 @@ int main()
 	memset(txt,0,strlen(txt));
 	scanf("%c",&txt[0]);
 	int j=1;
-	while (j<1024)
+	while (j<=1024)
 	{
 		scanf("%c",&txt[j]);
 		if(txt[j]=='~')
