@@ -35,7 +35,7 @@ void print1(char *str,int len,int key)
     {
         printf("~");
     }
-    for(int i = 0 ; i <= len ; i++)
+    for(int i = 0 ; i < len ; i++)
     {
         int ans = gimat(str[i]);
         if(m==0 && ans==0)
