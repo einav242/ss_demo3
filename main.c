@@ -37,13 +37,13 @@ int main()
 	
 
 	printf("Gematria Sequences: ");
-	func1(word,i,txt,j);
+	func1(word,i+1,txt,j+1);
 	printf("\n");
 	printf("Atbash Sequences: ");
-	func2(word,i,txt,j);
+	func2(word,i+1,txt,j+1);
 	printf("\n");
 	printf("Anagram Sequences: ");
-	func3(word,i,txt,j);
+	func3(word,i+1,txt,j+1);
 	
 	return 0;
 }
