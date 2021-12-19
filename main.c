@@ -42,7 +42,6 @@ int main()
 	printf("\n");
 	printf("Anagram Sequences: ");
 	func3(word,i,txt,j);
-	printf("\n");
 	
 	return 0;
 }
